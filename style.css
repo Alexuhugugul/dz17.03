@@ -1,0 +1,32 @@
+body{
+	margin:0px;
+}
+h1{
+    display: flex;
+    padding: top 40;
+    justify-content: center;
+}
+
+h2,h3,h4{
+    display: flex;
+    margin-left: 10px;
+}
+.button{
+	margin-left: 120px;
+    line-height: 2.5;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+.button.active{
+	background: #260f79;
+    border-radius: 4px;
+    color: white;
+}
+.center-IMG{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
