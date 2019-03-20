@@ -7,33 +7,25 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body style="background:#b8b1b1;width: 100%;height: 200px">
-    <div style="display:block;margin:  0 auto;background:#b8b1b1">
-        <header style="background:rgb(255, 255, 255);height: 200px">
-            <h1>Progect 1</h1>
-            <div style="display:flex;justify-content: center;">
-                <div class="button active ">
-                    <label><i>Главная</i></label>
-                </div>
-                <div class="button">
-                    <label><i>Каталог</i></label>
-                </div>
-                <div class="button">
-                    <label><i>Страница1</i> </label>
-                </div>
-                <div class="button">
-                    <label><i>Страница2</i></label>
-                </div>
-                <div class="button">
-                    <label><i>Контакты</i></label>
-                </div>
-            </div>
-</header>
- <div style="width:100%;top:200px;border-top: 1px solid #585454"> </div>
+<body >
+    <nav  >
+        
+            <h1><b>Project 1</b></h1>
+            <ul id="menu">
+                <li><a href="#"> Главная</a></li>
+                <li><a href="#"> Каталог</a></li>
+                <li> <a href="#">Страница1</a></li>
+                <li><a href="#"> Страница2</a></li>
+                <li><a href="#" >Контакты</a></li>
+            </ul>
+            
+    </nav>
 
+<div style="width:100%;top:200px;border-top: 1px solid ; color: #c2b0b0"></div>              <!--Линия разделения-->
 
-    <div style="display:inline-table;background: #dfd6d6;width: 300px;height: 300px;float: left;margin: 20px 120px">
-        <img src="bas.jpg" class="center-IMG" width="300">
+ <main style="background:#e4ddd7">  
+    <div id="left_stolb">            <!--Левый столбец-->
+        <img src="bas.jpg" class="center-IMG" width="450">
         <h2 style="justify-content: center" > <b>Левая колонка</b></h2>
         <p style="margin:20px; opacity: 0.5" > Принимая во внимание показатели успешности, перспективное планирование обеспечивает актуальность вывода текущих активов. 
             В своем стремлении улучшить пользовательский опыт мы упускаем, что интерактивные прототипы набирают популярность среди определенны слоев населения,
@@ -41,15 +33,15 @@
              сегодняшнего дня говорит о возможностях экономической целесообразности принимаемых решений. Укрепление и развитие внутренней структуры, в своем 
              классическом представлении, допускает внедрение позиций, занимаемых участниками в отношении поставленных задач!</p>
         
-        <div class = "button active" style="margin-bottom:20px">Подробнее</div>
+        <div id="menu"><a href="#"> Подробнее</a></div>
         
 
     </div>
 
 
-    <div style="display:inline-table;background: #dfd6d6;width: 800px;float: left;margin: 20px 30px">
-                <img src="pus.jpg" class="center-IMG" width="800" height="400">
-                <h1>Описание </h1>
+    <div id="right_stolb">        <!--Правый столбец-->
+                <img src="pus.jpg" class="center-IMG" width="800" height="350">
+                <h1 align="left">  Описание </h1>
                 <h4 style="margin:20px">текст про рыбу</h4>   
                 <p style="margin:20px; opacity: 0.5">Значимость этих проблем настолько очевидна, что новая модель организационной деятельности прекрасно подходит для реализации как самодостаточных, 
                     так и внешне зависимых концептуальных решений. Но базовые сценарии поведения пользователей могут быть заблокированы в рамках своих собственных рациональных ограничений. 
@@ -71,26 +63,26 @@
     </div>
 
     <div style="clear:both"></div>  
-</div>
-<footer>
- <div style="background:#585454;height: 500px "> 
-  <div>
+</main>
+<footer style="background:#585454;height: 400px ">   <!---->
+     
+  
         <h2 style="color:white ; margin-left: 300px" > Мы в социальных сетях</h2>
-  </div>
+  
  <div style="margin-left: 300px">
     <a href="https://vk.com"><img src="vk.png"></a>
     <a href="https://ok.ru/"><img src="ok.png"></a>
     <a href="https://www.facebook.com" ><img src=face.png></a>
  </div>  
-    <div style="clear:both"></div> 
 
-    <div style="display: inline-flex; border-bottom:1px solid #312d2d;">
-            <p style="color:white;margin-left: 300px">Адрес:</br></p>
-            <p style="color:#6e6b6b">Российская Федерация,Томск пр- Развития, 3</p>
+    <div style="border-bottom:1px solid #312d2d;">
+            <p style="color:white;margin-left: 300px">Адрес:
+            <span style="color:#6e6b6b">Российская Федерация,Томск пр-т</span></br>
+            <span style="color:#6e6b6b">Развития, 3</span> </p>
         </div>	
-        <div style="display: inline-flex;">
-            <p style="color:white">Телефон:</br></p>
-            <p style="color:#6e6b6b">(800) 000-000<br></p>
+        <div style="margin-left: 300px">
+            <p style="color:white">Телефон:
+            <span style="color:#6e6b6b">(800) 000-000</span></p>
         </div>
         <div style="clear:both"></div> 
         <div style="background: #312d2d;height: 50px;width: 600px;left: 400px;bottom: 60px;border-radius:4px;display: inline-flex;margin-top: 10px;margin-left: 300px;">
@@ -100,6 +92,6 @@
                </div>
    <div style="clear:both"></div>               
   </div>        
-</div>  
+ 
 </footer>
 </body>

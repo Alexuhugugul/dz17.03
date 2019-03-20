@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic');
 body{
-	margin:0px;
+    margin:0px;
+    background: #fefffe;
 }
+
 h1{
     display: flex;
     padding: top 40;
@@ -11,22 +14,62 @@ h2,h3,h4{
     display: flex;
     margin-left: 10px;
 }
-.button{
-	margin-left: 120px;
-    line-height: 2.5;
-    height: 40px;
-    width: 100px;
-    text-align: center;
-}
-.button.active{
-	background: #260f79;
-    border-radius: 4px;
-    color: white;
-}
+
 .center-IMG{
     display: block;
-    margin: 0 auto;
 }
+#menu li, #menu{
 
+    margin: 0;               
+    padding: 0;
 
+}
+#menu{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-style: italic;
+}
+#menu li{
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    height: 60px;
 
+}
+#menu a{
+    display: block;
+    padding:  20px;
+        color: rgb(7, 7, 14);
+        font-size:100%;
+        text-decoration: none;
+       background: #fefffe;
+       margin-right: 30px;
+       border-radius: 10px;
+}
+#menu a:hover{
+    background: #c21523;
+    color: white;
+    border-radius: 10px; 
+    font-weight: 600;
+}
+#left_stolb {
+    display:inline-table;
+    background: #ffffff;
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin: 20px 30px 20px 150px;
+    
+
+}
+#right_stolb{
+  /*  display:inline-table;  */
+    background: #ffffff;
+    width: 800px;
+    float: left;
+    margin: 20px 30px;
+
+}
+p {
+    font-family: sans-serif;
+}
