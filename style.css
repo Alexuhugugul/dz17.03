@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic');
 body{
-    margin:0px;
+    margin:0;
+    padding: 0;
     background: #fefffe;
 }
 
@@ -18,13 +19,13 @@ h2,h3,h4{
 .center-IMG{
     display: block;
 }
-#menu li, #menu{
+#menu li, #menu, #bord ,#proch{
 
     margin: 0;               
     padding: 0;
 
 }
-#menu{
+#menu , #proch{
     text-align: center;
     font-family: 'Comfortaa', cursive;
     font-style: italic;
@@ -32,11 +33,11 @@ h2,h3,h4{
 #menu li{
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: 170px;
     height: 60px;
 
 }
-#menu a{
+#menu a,#proch a{
     display: block;
     padding:  20px;
         color: rgb(7, 7, 14);
@@ -44,14 +45,22 @@ h2,h3,h4{
         text-decoration: none;
        background: #fefffe;
        margin-right: 30px;
-       border-radius: 10px;
+       border-radius: 4px;
 }
 #menu a:hover{
     background: #c21523;
     color: white;
     border-radius: 10px; 
-    font-weight: 600;
-}
+    font-weight: 600;}
+
+#proch a:hover{
+    background: #c21523;
+    color: white;
+    border-radius: 4px; 
+    width: 50px;
+    font-weight: 700; 
+}    
+
 #left_stolb {
     display:inline-table;
     background: #ffffff;
@@ -72,4 +81,24 @@ h2,h3,h4{
 }
 p {
     font-family: sans-serif;
+}
+#bord{
+    
+    background: #574f4f;
+    height:10% ;
+    width: 40%;
+    border-radius:4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+#bord p{
+    text-align: center;
+}
+#line{
+    border-left: 1px solid #d8c1c1;
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px;
+    color: wheat;
 }
